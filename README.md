@@ -15,9 +15,10 @@ env_installer is a tool for online packaging and offline installation of python 
 * Only supports `python 3` and `linux` system.
 
 ## Quick start
-首先克隆env_installer到本地(任意路径,最好在你的家目录下)。
+First clone the env installer to the local (any path, preferably in your home directory).
 
-假设这是你即将准备部署的项目(位于/home/DemoProject):
+Suppose this is the project you are about to deploy (located at /home/DemoProject)
+
 ```text
 DemoProject
 ├──assets
