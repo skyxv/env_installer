@@ -57,7 +57,7 @@ arguments:
 
 到这里，我们的打包命令就完成了: 
 ```text
-python3 -b /home/DemoProject -r /home/DemoProject/requirements.txt -v
+python3 pack.py -b /home/DemoProject -r /home/DemoProject/requirements.txt -v
 ```
 这会在你的项目下生成一个目录,里面存储的是按照requirements.txt列出的依赖的whl格式的安装包。
 
@@ -106,7 +106,7 @@ the absolute path of dependent file:
 
 到这里，我们的安装命令就完成了:
 ```text
-python3 -b /deploy/DemoProject -r /deploy/DemoProject/requirements.txt -p /usr/bin/python3
+python3 install.py -b /deploy/DemoProject -r /deploy/DemoProject/requirements.txt -p /usr/bin/python3
 ```
 
 运行成功结果:

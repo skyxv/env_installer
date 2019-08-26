@@ -66,7 +66,7 @@ If the default pip source download is slow, you can replace it with `-i`, just l
 
 now, our packaging command is complete:
 ```text
-python3 -b /home/DemoProject -r /home/DemoProject/requirements.txt -v
+python3 pack.py -b /home/DemoProject -r /home/DemoProject/requirements.txt -v
 ```
 This will generate a directory under your project that stores the installation package in the whl format of the dependencies listed in requirements.txt.
 
@@ -116,7 +116,7 @@ conversely, if you have a virtualenv on your server, you only need to give the p
 
 now, our installation command is complete:
 ```text
-python3 -b /deploy/DemoProject -r /deploy/DemoProject/requirements.txt -p /usr/bin/python3
+python3 install.py -b /deploy/DemoProject -r /deploy/DemoProject/requirements.txt -p /usr/bin/python3
 ```
 
 result:
