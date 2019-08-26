@@ -45,7 +45,8 @@ class EnvInstaller:
                                  help="absolute path of production environment dependency file.",
                                  action="store", required=True)
         self.parser.add_argument("-d", "--download_dir",
-                                 help="absolute path of package storage location.",
+                                 help="optional, absolute path of package storage location."
+                                      "if not given, it is automatically generated under the project",
                                  action="store", default=self._get_download_folder_name())
         flag_parser = self.parser.add_mutually_exclusive_group(required=False)
         flag_parser.add_argument('-v', dest='v', action='store_true',
