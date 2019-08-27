@@ -1,3 +1,4 @@
 language: python
 
-script: tests.test
+script:
+  - python tests/test.py
