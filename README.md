@@ -1,8 +1,8 @@
 env_installer
 ========
-[![Support Python Version](https://img.shields.io/badge/Python-3-brightgreen.svg)](https://www.python.org/)
-[![](https://travis-ci.org/yandenghong/env_installer.svg?branch=master)](https://travis-ci.org/yandenghong/env_installer)
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
+[![Support Python Version](https://img.shields.io/badge/Python-3-orange.svg?style=flat)](https://www.python.org/)
+[![](https://travis-ci.org/yandenghong/env_installer.svg?branch=master&style=flat)](https://travis-ci.org/yandenghong/env_installer)
+![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 [中文](https://github.com/yandenghong/env_installer/blob/master/README_CN.md)
