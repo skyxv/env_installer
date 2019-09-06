@@ -36,7 +36,7 @@ class EnvInstallerTest(unittest.TestCase):
 
     def test_get_install_cmd(self):
         self.assertEqual(env_installer._get_install_cmd("/a", "/r", "virutalenv", "/pip"),
-                         "/pip install -r /r --no-index --find-links=/a")
+                         "sudo /pip install -r /r --no-index --find-links=/a")
         self.assertEqual(env_installer._get_install_cmd("/a", pkg_name="virtualenv"),
                          "pip3 install virtualenv --no-index --find-links=/a")
         self.assertRaises(MissingParamError, env_installer._get_install_cmd, "/a")
