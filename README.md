@@ -120,6 +120,8 @@ now, our installation command is complete:
 python3 install.py -b /deploy/DemoProject -r /deploy/DemoProject/requirements.txt -p /usr/bin/python3
 ```
 
+> Note: because you need to install `virtualenv` on the server, you need root permission. You will be asked to enter the correct root password in the middle of the command execution.
+
 result:
 ```text
 installed successfully!now you can run:

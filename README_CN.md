@@ -110,6 +110,8 @@ the absolute path of dependent file:
 python3 install.py -b /deploy/DemoProject -r /deploy/DemoProject/requirements.txt -p /usr/bin/python3
 ```
 
+> 需要注意的是，此时因为需要在服务器上安装`virtualenv`，因此需要Root权限，命令执行中途会要求你输入正确的root密码.
+
 运行成功结果:
 ```text
 installed successfully!now you can run:
