@@ -166,7 +166,7 @@ class EnvInstaller:
         if not venv_pip_dir:
             venv_pip_dir = "pip3"
         if req_dir:
-            return "{} install -r {} --no-index --find-links={}".format(venv_pip_dir, req_dir, absolute_download_dir)
+            return "sudo {} install -r {} --no-index --find-links={}".format(venv_pip_dir, req_dir, absolute_download_dir)
         else:
             if pkg_name:
                 return "{} install {} --no-index --find-links={}".format(venv_pip_dir, pkg_name, absolute_download_dir)
